@@ -7,6 +7,8 @@
 
 ・Docker
 
+・Django
+
 # プログラミング
 ・Python
   
@@ -14,7 +16,7 @@
 
 ・C#
 
-・HTML5 + CSS
+・HTML5 + CSS + JavaScript
 
 ・PostgreSQL
 
