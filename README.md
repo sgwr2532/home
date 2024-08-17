@@ -1,4 +1,22 @@
-# hello-world
+# hello-world (覚え書き。一時的なメモ置き場。)
+・Linux
 
-ただの覚え書き。一時的なメモ置き場です。
+・Git
+
+・Azure
+
+・Docker
+
+・Django
+
+# プログラミング
+・Python
+  
+・Java
+
+・C#
+
+・HTML5 + CSS + JavaScript
+
+・PostgreSQL
 
