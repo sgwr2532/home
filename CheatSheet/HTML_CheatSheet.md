@@ -1,4 +1,4 @@
-## HTML + CSS + JavaScript
+## HTML5 + CSS + JavaScript
 ~~~
 
 
