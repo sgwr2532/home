@@ -1,4 +1,4 @@
-## Django Cheat Sheet
+## Django
 ~~~
 
 
