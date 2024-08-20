@@ -1,4 +1,4 @@
-#### Python CheatSheet
+#### Python Cheat Sheet
 ~~~
 ~~~
 
