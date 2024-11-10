@@ -1,6 +1,7 @@
 ## Python
 #### 頻出モジュール関数等
 ~~~
+type(x), int(), str(), float()
 numpy,decimal,
 ~~~
 #### 定番表現
@@ -10,7 +11,11 @@ a = input()
 a, b = input().split()
 
 # n(float型), m(有効桁)
-print("{:.{}f}".format(n, m))  
+print("{:.{}f}".format(n, m))
+
+# 改行込みでも可
+print( 100 + 200 + 300
+ + 400 +500 )
 
 # リスト内包表記
 s = [int(x) for x in range(n)]
