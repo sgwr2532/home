@@ -36,9 +36,12 @@ else:
     処理3
 
 # 繰り返し
-for i in range(x):
-for i in len(xxx):
-for i in list:  # 
+for i in range(x) :
+for i in len(xxx) :
+for i in list_S :  # リストの要素を i に代入して繰り返し
+for i in range(x) :
+  for j in range(y) :
+    # 二次元配列の全探索. iとj が昇順か降順か注意すること
 
 ~~~
 
