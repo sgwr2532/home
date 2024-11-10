@@ -7,8 +7,8 @@
  + ソースファイルモードで実行
 > java xxxx.java
 ~~~
+#### コード例
 ~~~
-# コード例
 import java.util.*;
 public class Main {
     public static void main(String args) {
