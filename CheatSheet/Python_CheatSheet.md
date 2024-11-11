@@ -13,8 +13,9 @@ a, b = input().split()
 l = list(map(int, input().split()))
 print(f'{x}は{y}です。')
 
-# n(float型), m(小数点以下の有効桁)
-print("{:.{}f}".format(n, m))
+# フォーマット
+print("{:.{}f}".format(n, m))  # n(float型), m(小数点以下の有効桁)
+print("{:i>x}".format(n))  # x 桁に右揃えで、足りない部分は i で埋める
 
 # 改行込みでも可
 print( 100 + 200 + 300
