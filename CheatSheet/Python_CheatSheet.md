@@ -53,7 +53,8 @@ else:
 # 繰り返し
 for i in range(x) :
 for i in len(xxx) :
-for i in list_S :  # リストの要素を i に代入して繰り返し
+for i in list_S :  # リストやタプルの要素を i に代入して繰り返し
+for i, j in 辞書.items() :  # 辞書の要素を i に代入して繰り返し
 for i in range(x) :
   for j in range(y) :
     # 二次元配列の全探索. iとj が昇順か降順か注意すること
