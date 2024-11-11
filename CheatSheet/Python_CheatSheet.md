@@ -11,9 +11,9 @@ x.append(xx), x.remove(), x.pop(), sorted(x,reverse=True),
 a = input()
 a, b = input().split()
 l = list(map(int, input().split()))
-print(f'私は{x}です。')
+print(f'{x}は{y}です。')
 
-# n(float型), m(有効桁)
+# n(float型), m(小数点以下の有効桁)
 print("{:.{}f}".format(n, m))
 
 # 改行込みでも可
