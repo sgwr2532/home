@@ -60,7 +60,7 @@ for i in range(x) :
     # 二次元配列の全探索等。 iとj が昇順か降順か注意すること
 
 # 関数の基本
-def fanc():
+def fanc(a, b=0):  # bのデフォルトに0
   pass  # ここで処理。"pass" とは何もしないこと
   return X  # 戻り値なければ "None" が返ってくる
 fanc()
