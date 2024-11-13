@@ -29,6 +29,7 @@ print( jisho[key_0] )  # value_0 とペアの値が出力される
 
 # 集合  // 重複しない、順序なし
 x = {1,2,3,4}
+x = set(リスト)
 集合.add(要素)
 集合.discard(要素)  # 要素がなくてもエラーにならない
 集合.remove(要素)   # 要素がないとエラーになる
@@ -41,7 +42,7 @@ x = (1,2,3,4)
 x[インデックス]
 
 # リスト内包表記
-s = [int(x) for x in list_x ]
+s = [int(x) for x in list_x ]  # list_xの各要素をint型にしたリストsを作る
 
 # 分岐
 if 条件:
