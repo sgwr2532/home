@@ -12,4 +12,12 @@ awk '{
   print $1, $2, src[0], dst[0];
 }'
 
+# byte等の総計
+awk '{
+  match($0 ,/dst="[^"]+"/, dst);
+  match($0 ,/bytes="[^"]+"/, bytes);
+  print dst[0], bytes[0];
+}' 
+|awk '{bytes[$1]+=$2} END {print bytes[$1],  }'
+
 ~~~
