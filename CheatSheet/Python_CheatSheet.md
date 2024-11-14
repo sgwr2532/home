@@ -26,6 +26,7 @@ jisho ={key_0: value_0, key_1: value_1, key_2: value_2 }
 print( jisho[key_0] )  # value_0 とペアの値が出力される
 辞書.key()     # dict_keys型 で key全てを取得
 辞書.values()  # dict_values型 で value全てを取得
+for i, j in 辞書.items():
 
 # 集合  // 重複しない、順序なし
 x = {1,2,3,4}
