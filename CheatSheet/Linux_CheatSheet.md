@@ -47,7 +47,4 @@ awk '{
 }' |
 sed 's/bytes=//' |
 awk '{bytes[$1]+=$2} END {for (dist in bytes) print bytes[dist], dist}' |sort -nr
-
-
-
 ~~~
