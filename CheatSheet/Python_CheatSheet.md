@@ -1,6 +1,11 @@
 ## Python
 #### 頻出モジュール関数等
 ~~~
+# 使い方
+import モジュール(ファイル名)
+ -- 実行方法: モジュール名.関数名()
+from モジュール名 import 関数名
+ -- 実行方法: 関数名()
 numpy,decimal,
 type(x), int(x), str(x), float(x), len(x), sum(x)
 x.append(xx), x.remove(), x.pop(), sorted(x,reverse=True),
@@ -66,6 +71,7 @@ def fanc(a, b=0):  # bのデフォルトに0
   pass  # ここで処理。"pass" とは何もしないこと
   return X  # 戻り値なければ "None" が返ってくる
 fanc()
+
 ~~~
 #### アルゴリズム等ナレッジ
 ~~~
