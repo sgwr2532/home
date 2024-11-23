@@ -19,6 +19,8 @@ l = list(map(int, input().split()))
 print(f'{x}は{y}です。')
 
 # フォーマット
+{0: <10,.3f}  # index番号(省略可):0  ":"以降は書式  
+  -- index 0番、半角スペースで左詰め最小幅10(.込み)、小数点以下3桁、型指定(fならfloat)
 print("{:.{}f}".format(n, m))  # n(float型), m(小数点以下の有効桁)
 print("{:i>x}".format(n))  # x 桁に右揃えで、足りない部分は i で埋める
 
