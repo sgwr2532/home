@@ -1,4 +1,13 @@
 ## Python
+#### 導入
+~~~
+python3 -m venv env    # "env" は ディレクトリ(プロジェクト)のこと
+source env/bin/activate
+pip install pycodestyle
+pip install flake8
+pycodestyle チェック対象
+flake8 チェック対象
+~~~
 #### 頻出モジュール関数等
 ~~~
 # 使い方
