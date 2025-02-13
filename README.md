@@ -13,12 +13,12 @@ index       リポジトリ（保存場所）とワークツリー（作業場�
 WorkTree    ユーザーが編集している作業中のディレクトリのこと。
 
 ・アクションとコマンド
-アクション  定義  コマンド
-clone       リモートの commit を、ローカルに丸ごとコピー。                            git clone [リポジトリパス]
-commit      repository にファイルや変更履歴を登録。                                   git commit [コミット名]
-push        登録した変更（ commit ）をローカルからリモートへ反映させる。              git push
-branch      変更履歴を分岐すること。作成された分岐はブランチと呼ぶ。                  git branch
-merge       複数の branch を1つにまとめる。                                           git merge
-pull        リモートの commit をローカルに引っ張ってくる。ファイルは更新される。      git pull
-fetch       リモートからファイルの最新情報を取得。ローカルのファイルは更新されない。  git fetch [リポジトリ]
+アクション  定義								コマンド
+clone      リモートの commit を、ローカルに丸ごとコピー。			git clone [リポジトリパス]
+commit     repository にファイルや変更履歴を登録。				git commit [コミット名]
+push       登録した変更（ commit ）をローカルからリモートへ反映させる。	git push
+branch     変更履歴を分岐すること。作成された分岐はブランチと呼ぶ。		git branch
+merge      複数の branch を1つにまとめる。				git merge
+pull       リモートの commit をローカルに引っ張ってくる。ローカルは更新。	git pull
+fetch      リモートからファイルの最新情報を取得。ローカルは更新されない。	git fetch [リポジトリ]
 ~~~
