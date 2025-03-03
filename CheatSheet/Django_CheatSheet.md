@@ -15,20 +15,20 @@
     manage.py
     プロジェクト名/
         __init__.py
+        asgi.py
         settings.py
         urls.py
         wsgi.py
-
-# アプリケーション構造
-アプリ名/
-    __init__.py
-    admin.py
-    apps.py
-    models.py
-    tests.py
-    views.py
-    migrations/
+    # アプリケーション構造
+    アプリ名/
+        migrations/
+            __init__.py
         __init__.py
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        views.py
 
 # 基本的なビュー
 from django.http import HttpResponse
