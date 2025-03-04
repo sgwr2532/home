@@ -36,11 +36,22 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Hello, world!")
 
-# URL設定
-from django.urls import path
-from . import views
-
+# project/urls.py 
+from django.contrib import admin
+from django.urls import path, views
 urlpatterns = [
     path('', views.index, name='index'),
+    path('admin/', admin.site.urls),
+    path('application/', include('application.urls')),
 ]
+
+# application/urls.py 
+from django.urls import path
+from . import views
+app_name = 'application'
+urlpatterns = [
+  path('', views.IndexView.as_view(), name='index'),
+  path('hoge/', views.HogeView.as_view(), name='hoge'),
+]
+
 ~~~
