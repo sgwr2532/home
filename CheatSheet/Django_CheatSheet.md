@@ -31,7 +31,7 @@ project
      |- urls.py
      |- views.py
 
-# 基本的なビュー
+# views.py
 from django.http import HttpResponse
 def index(request):
     return HttpResponse("Hello, world!")
